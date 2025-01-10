@@ -71,20 +71,6 @@ group by location
 order by revenue desc
 
 -- RFM analysis by location segmentation
-with City as
- (Select 
-     location,
-   max (purchase_date) as last_purchase_date, count(*) purchase_count,
-datediff(day,purchase_date,'2025-03-01') as recency,
-round(sum (amount_spent),0) as total_amount 
-from financial_report
-GROUP BY location)
-
-select *
-FROM city
-
-
-
 WITH City AS (
     SELECT 
         location,
