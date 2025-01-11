@@ -134,6 +134,7 @@ ORDER BY total_revenue DESC;
 
 ![image](https://github.com/user-attachments/assets/35f99853-572c-4658-ad16-965e0846c2b8)
 
+**Optimal Payment Method across various Locations**
 ![image](https://github.com/user-attachments/assets/91656fe9-4d11-477f-bc30-5816e0ebfd6f)
 
 
